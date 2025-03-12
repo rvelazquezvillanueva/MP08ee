@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background-image: url(/img/fons.jpg);
+}
+
+@media screen and (max-width: 480px) {
+
+    /*smartphone */
+
+    body {
+
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1279px) {
+
+    /* tablet */
+
+    body {
+
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+/*ordinador */
+
+body {
+
+}
+
+h1 {
+    font-size: 4rem;
+}
+}
+
+.cap {
+    height: 589px;
+
+    margin:0;
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: black;
+    text-align: center;
+}
+
+.cos {
+    height: 780px;
+
+
+    background-repeat: no-repeat;
+
+    
+}
+
+.cos ul {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.cos li {
+    display: block;
+    width: 25vh;
+    height: 200px;
+    border-radius: 0%;
+    float: left;
+    background:black;
+    line-height: 200px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.peu {
+    height: 220px;
+
+    background-image: url(/img/logo_carsandfilms.png);
+    background-repeat: no-repeat;
+
+}
